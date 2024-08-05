@@ -1,0 +1,214 @@
+body {
+    width: 100%;
+    background-color: #F5F5F5;
+    font-family: "Manrope", sans-serif;
+    color: #121212;
+}
+
+/* General container and section */
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+section {
+    padding: 0 125px 150px;
+}
+
+/* Sections with specific styles */
+
+.section-hero {
+    padding-top: 71px;
+}
+
+.section-services {
+    background-color: #000;
+    color: #FFF;
+
+    padding-top: 151px;
+    padding-bottom: 150px;
+}
+
+/* Inner containers */
+
+.container-hero {
+    width: 1150px;
+    height: 500px;
+
+    position: relative;
+
+    background-image: url(../resources/hero-image.png);
+    background-repeat: no-repeat;
+}
+
+.container-about-us {
+    width: 1051px;
+}
+
+.container-projects {
+    width: 1150px;
+}
+
+.container-services {
+    width: 1150px;
+}
+
+/* Text styles */
+
+h1,
+h2,
+h3,
+p,
+a {
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+h1 {
+    width: 956px;
+
+    font-size: 60px;
+    line-height: 60px;
+
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.big-paragraph {
+    width: 1051px;
+
+    font-size: 45px;
+    line-height: 61px;
+
+    margin-bottom: 30px;
+}
+
+/* Hero styles */
+
+.hero-image-text {
+    width: 430px;
+
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFF;
+}
+
+/* Button styles */
+
+.our-services-button {
+    display: inline-block;
+
+    width: 255px;
+    height: 67px;
+
+    padding: 20px 40px;
+
+    background-color: #AD1818;
+    border-radius: 5px;
+
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    text-decoration: none;
+    color: #FFF;
+}
+
+.all-projects-button {
+    display: block;
+
+    width: 100%;
+    height: 153px;
+
+    padding: 56px 0;
+
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    text-decoration: none;
+    color: #AD1818;
+}
+
+.all-projects-button:hover {
+    color: #FFF;
+    background-color: #AD1818;
+}
+
+/* Projects section */
+
+.project-item {
+    margin-bottom: 90px;
+}
+
+.project-item__image {
+    display: block;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.project-item__title {
+    margin-bottom: 15px;
+}
+
+.project-item__link {
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+    text-decoration: none;
+}
+
+/* Our services section */
+
+.container-services h2 {
+    margin-left: 2px;
+}
+
+.services-item {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.services-item__image {
+    display: block;
+    width: 100%;
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.services-item__text {
+    font-size: 30px;
+    line-height: 41px;
+    margin-left: 3px;
+}
+
+.services-item:nth-last-child(1) {
+    margin-bottom: 0;
+}
